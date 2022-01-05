@@ -7,5 +7,56 @@
 
 .sidebarWrapper{
     padding: 20px;
-    background-color: seagreen;
+}
+
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none; /* gets rid off bullet points */
+}
+
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.sidebarButton{
+    margin-right: 15px;
+}
+
+.sidebarIcon{
+    margin-right: 15px;
+}
+
+.sidebarHr{
+    margin: 20px 0;
+    color: slategrey;
+}
+
+.sidebarShortcutList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarShortcuts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.shortcutIcons, .pfp{
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    border-radius: 50%; /* >50% makes the img into a circle*/
+    object-fit: cover; /* this prevents the image from looking compressed */
+}
+
+/*borders are not colored in properly, must change padding above*/
+.sidebarListItem:hover, .sidebarShortcuts:hover{
+    background-color: lightgrey;
 }
