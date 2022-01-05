@@ -1,0 +1,30 @@
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex; /* this will align all elements of topbarContainer along the same row*/
+    align-items: center;
+    position: sticky; 
+    top: 0; /* even when scrolling this will stick the container to the top "0"*/
+}
+
+.topbarLeft{
+    flex: 3;
+}
+
+.logo{
+    
+}
+
+.topbarCenter{
+    flex: 5;
+}
+
+.topbarRight{
+    flex: 4;
+}
+
+.topbarImg{
+    width: 32px;
+    height: 32px;
+}
