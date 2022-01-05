@@ -1,3 +1,12 @@
+/*
+Bugs to fix:
+- when changing window size, the searchInput overlaps the searchBar
+- borders dont look proportional or equally balanced when chaanging 
+    window size
+
+
+*/
+
 .topbarContainer{
     height: 50px;
     width: 100%;
@@ -12,19 +21,89 @@
     flex: 3;
 }
 
+/*"SocialBook"*/
 .logo{
-    
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white; 
+    cursor: pointer; /* turns cursor into a pointer*/
 }
 
 .topbarCenter{
     flex: 5;
 }
 
-.topbarRight{
-    flex: 4;
+.searchbar{
+    width: 50%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
 }
 
+/*magnifiying glass icon*/
+.searchIcon{
+    font-size: 20px !important; /* its a material icon so it wont be applied
+    unless you write "!important" */
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.searchInput{
+    border: none;
+    width: 90%;
+}
+
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* puts the items in flex with spaces around each of them */
+    color: white;
+}
+
+/*e.g. Homepage, Timeline, etc.*/
+.topbarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.topbarIcons{
+    display: flex;
+    color: white;
+}
+
+.topbarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+/*red notification on icon*/
+.topbarIconBadge{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;   
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+/*profile picture on topbar*/
 .topbarImg{
     width: 32px;
     height: 32px;
+    border-radius: 50%; /* >50% makes the img into a circle*/
+    object-fit: cover; /* this prevents the image from looking compressed */
+    cursor: pointer;
+
 }

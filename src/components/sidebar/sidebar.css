@@ -1,0 +1,11 @@
+.sideBar{
+    flex: 3;
+    /* 100vh = 100% viewport height (viewport is the visible area on the screen
+     50px is the height of the logo above the side bar */
+    height: calc(100vh - 50px);
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    background-color: seagreen;
+}
