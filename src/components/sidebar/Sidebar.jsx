@@ -56,6 +56,70 @@ export default function Sidebar() {
                         <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
                         <span className="sidebarAppName">Amazon</span>
                     </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/angrybirds.png" alt="angry birds app" className="shortcutIcons" />
+                        <span className="sidebarAppName">AngryBirds</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
+                        <span className="sidebarAppName">Amazon</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/angrybirds.png" alt="angry birds app" className="shortcutIcons" />
+                        <span className="sidebarAppName">AngryBirds</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
+                        <span className="sidebarAppName">Amazon</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/angrybirds.png" alt="angry birds app" className="shortcutIcons" />
+                        <span className="sidebarAppName">AngryBirds</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
+                        <span className="sidebarAppName">Amazon</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/angrybirds.png" alt="angry birds app" className="shortcutIcons" />
+                        <span className="sidebarAppName">AngryBirds</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
+                        <span className="sidebarAppName">Amazon</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/angrybirds.png" alt="angry birds app" className="shortcutIcons" />
+                        <span className="sidebarAppName">AngryBirds</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
+                        <span className="sidebarAppName">Amazon</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/angrybirds.png" alt="angry birds app" className="shortcutIcons" />
+                        <span className="sidebarAppName">AngryBirds</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
+                        <span className="sidebarAppName">Amazon</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/angrybirds.png" alt="angry birds app" className="shortcutIcons" />
+                        <span className="sidebarAppName">AngryBirds</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
+                        <span className="sidebarAppName">Amazon</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/angrybirds.png" alt="angry birds app" className="shortcutIcons" />
+                        <span className="sidebarAppName">AngryBirds</span>
+                    </li>
+                    <li className="sidebarShortcuts">
+                        <img src="/assets/appIcons/amazon.png" alt="amazon app" className="shortcutIcons" />
+                        <span className="sidebarAppName">Amazon</span>
+                    </li>
                 </ul>
             </div>
         </div>

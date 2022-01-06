@@ -1,3 +1,7 @@
 .Feed{
     flex: 5; /* flex is the container size, e.g. sidebar= 25%, feed= 50%, etc.  */
 }
+
+.feedwrapper{
+    padding: 20px;
+}
